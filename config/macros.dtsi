@@ -1,6 +1,6 @@
-macro_alt+ctrl+shift: macro_alt+ctrl+shift{
+macro_alt_ctrl_shift: macro_alt_ctrl_shift{
 compatible = "zmk,behavior-macro";
-label = "macro_alt+ctrl+shift";
+label = "macro_alt_ctrl_shift";
 #binding-cells = <0>;
 bindings = <&kp LEFT_ALT>, <&kp LCTRL>, <&kp LEFT_SHIFT>;
 };
