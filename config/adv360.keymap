@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
-                     &kp ESC       &kp N1     &kp N2        &kp N3        &kp N4  &kp N5                &macro_macos_lock                                                                                     &mo 3  &kp N6    &kp N7     &kp N8   &kp N9          &kp N0   &kp LBKT
-                     &kp TAB        &kp Q      &kp W         &kp E         &kp R   &kp T            &macro_alt_ctrl_shift                                                                                  &kp PLUS   &kp Y     &kp U      &kp I    &kp O           &kp P   &kp RBKT
-                &kp CAPSLOCK        &kp A      &kp S         &kp D         &kp F   &kp G                        &kp MINUS       &kp LALT  &kp PAGE_DOWN                      &kp PG_UP      &macro_hyper  &kp EQUAL   &kp H     &kp J      &kp K    &kp L        &kp SEMI  &kp ENTER
- &mt LSHIFT LEFT_PARENTHESIS        &kp Z      &kp X         &kp C         &kp V   &kp B                                                       &kp HOME                        &kp END                                &kp N     &kp M  &kp COMMA  &kp DOT  &mt RCMD SLASH  &kp RSHFT
-                       &mo 1  &lt 3 GRAVE  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI                                &kp SPACE  &kp BACKSPACE        &kp DEL                  &kp BACKSLASH  &kp SINGLE_QUOTE  &kp SPACE          &kp LEFT   &kp DOWN   &kp UP       &kp RIGHT      &mo 2
+                     &kp ESC       &kp N1     &kp N2        &kp N3        &kp N4  &kp N5                    &kp LC(LG(Q))                                                                                             &mo 3  &kp N6    &kp N7     &kp N8   &kp N9          &kp N0   &kp LBKT
+                     &kp TAB        &kp Q      &kp W         &kp E         &kp R   &kp T               &kp LC(LA(LSHIFT))                                                                                          &kp PLUS   &kp Y     &kp U      &kp I    &kp O           &kp P   &kp RBKT
+                &kp CAPSLOCK        &kp A      &kp S         &kp D         &kp F   &kp G                        &kp MINUS       &kp LALT  &kp PAGE_DOWN                      &kp PG_UP      &kp LC(LA(LEFT_GUI))  &kp EQUAL   &kp H     &kp J      &kp K    &kp L        &kp SEMI  &kp ENTER
+ &mt LSHIFT LEFT_PARENTHESIS        &kp Z      &kp X         &kp C         &kp V   &kp B                                                       &kp HOME                        &kp END                                        &kp N     &kp M  &kp COMMA  &kp DOT  &mt RCMD SLASH  &kp RSHFT
+                       &mo 1  &lt 3 GRAVE  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI                                &kp SPACE  &kp BACKSPACE        &kp DEL                  &kp BACKSLASH  &kp SINGLE_QUOTE  &kp SPACE                  &kp LEFT   &kp DOWN   &kp UP       &kp RIGHT      &mo 2
             >;
         };
 
