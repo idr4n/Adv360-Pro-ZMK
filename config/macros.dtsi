@@ -1,3 +1,21 @@
+macro_alt+ctrl+shift: macro_alt+ctrl+shift{
+compatible = "zmk,behavior-macro";
+label = "macro_alt+ctrl+shift";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp LCTRL>, <&kp LEFT_SHIFT>;
+};
+macro_hyper: macro_hyper{
+compatible = "zmk,behavior-macro";
+label = "macro_hyper";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp LCTRL>, <&kp LEFT_ALT>;
+};
+macro_macos_lock: macro_macos_lock{
+compatible = "zmk,behavior-macro";
+label = "macro_macos_lock";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LCMD>, <&kp Q>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
